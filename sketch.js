@@ -33,8 +33,10 @@ function draw() {
   }
   drawSprites();
   //add styles here
-  stroke("white")
-  text("Note: Press UP_ARROW Key To Feed Drago Milk!",100,100);
+  stroke("red");
+  textSize(20)
+  text("Note: Press UP_ARROW Key To Feed Drago Milk!",10,50);
+  text("Food Remaining = "+foodS,150,150);
 }
 
 function readstack(data)
